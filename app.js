@@ -37,7 +37,7 @@ handTrack.startVideo(video)
             if(predictions.length > 0){
                 audio.play();
             }
-             model.renderPredictions(predictions, canvas, context, video);
+             //model.renderPredictions(predictions, canvas, context, video);
         });
     }
     handTrack.load(modelParams).then(lmodel => {
